@@ -1,0 +1,48 @@
+* {
+  margin: 0 !important;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hoverable-primary {
+  cursor: pointer;
+
+  &:hover {
+    border-radius: 4px;
+    background: lighten(red, 46%);
+  }
+}
+
+.hoverable-card {
+  cursor: pointer;
+  transition: .1s ease-out;
+
+  &:hover {
+    transform: scale(0.95);
+    box-shadow: 0 0 10px 1px rgba(243, 7, 7, 0.05);
+  }
+}
+
+.bg-red-darken {
+  background: darken(red, 20%);
+}
+
+.bg-red {
+  background: red !important;
+}
+
+.text-rating {
+  color: #f5b900;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+
+}

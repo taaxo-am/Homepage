@@ -1,0 +1,42 @@
+* {
+  margin: 0 !important;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hoverable-primary {
+  cursor: pointer;
+}
+.hoverable-primary:hover {
+  border-radius: 4px;
+  background: #ffebeb;
+}
+
+.hoverable-card {
+  cursor: pointer;
+  transition: 0.1s ease-out;
+}
+.hoverable-card:hover {
+  transform: scale(0.95);
+  box-shadow: 0 0 10px 1px rgba(243, 7, 7, 0.05);
+}
+
+.bg-red-darken {
+  background: #990000;
+}
+
+.bg-red {
+  background: red !important;
+}
+
+.text-rating {
+  color: #f5b900;
+}
+
+/*# sourceMappingURL=index.css.map */
