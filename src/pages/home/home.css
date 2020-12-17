@@ -2,24 +2,9 @@
   background: #f6f1f1;
 }
 
-.search-view-autocomplete {
-  height: 400px;
-  overflow-y: auto;
-  visibility: hidden;
-}
-
-.search-view:focus + .search-view-autocomplete {
-  visibility: visible;
-}
-
-.shopping-cart-icon {
-  cursor: pointer;
-  font-size: 18px;
-  color: white;
-}
-
 .nav-item {
   cursor: pointer;
+  color: #3b3c54;
 }
 
 .nav-item:hover {
@@ -27,16 +12,9 @@
 }
 
 .card-header {
-  font-size: 22px;
-  font-weight: 600;
-  padding: 1rem 1.5rem;
-}
-
-@media screen and (max-width: 768px) {
-  .nav-item {
-    font-size: 12px;
-    font-weight: bold;
-  }
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0.8rem 1.6rem;
 }
 
 /*# sourceMappingURL=home.css.map */

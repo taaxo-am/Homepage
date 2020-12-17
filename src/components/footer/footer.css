@@ -1,0 +1,20 @@
+footer .about small {
+  width: 70%;
+  font-family: "Nunito", sans-serif;
+}
+@media screen and (max-width: 769px) {
+  footer .about small {
+    font-size: 12px;
+    width: 100%;
+  }
+}
+footer .process {
+  font-family: "Nunito", sans-serif;
+}
+@media screen and (max-width: 769px) {
+  footer .process {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */

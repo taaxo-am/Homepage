@@ -1,0 +1,21 @@
+footer {
+
+  .about {
+
+    small {
+      width: 70%;
+      font-family: "Nunito", sans-serif;
+      @media screen and (max-width: 769px) {
+        font-size: 12px;
+        width: 100%;
+      }
+    }
+  }
+
+  .process {
+    font-family: "Nunito", sans-serif;
+    @media screen and (max-width: 769px) {
+      font-size: 12px;
+    }
+  }
+}

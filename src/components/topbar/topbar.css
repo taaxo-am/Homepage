@@ -1,0 +1,147 @@
+.topbar {
+  background: red;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+  padding: 0 100px;
+}
+.topbar .logo {
+  flex: 0.1;
+}
+.topbar .cart {
+  color: white;
+  cursor: pointer;
+}
+.topbar .cart i {
+  color: white;
+  font-size: 18px;
+}
+.topbar .cart span {
+  font-size: 10px;
+  margin-bottom: 2px;
+}
+.topbar .bars {
+  font-size: 22px;
+  color: white;
+  display: none;
+}
+.topbar .nav-items {
+  display: flex;
+  flex: 0.6;
+  justify-content: center;
+  float: right;
+  padding: 0 0 0 0px;
+}
+.topbar .nav-items li {
+  list-style: none;
+  padding: 0 15px;
+}
+.topbar .nav-items li a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.topbar .nav-items li a:hover {
+  color: #ffdbcf;
+}
+.topbar form {
+  display: flex;
+  flex: 1;
+  height: 40px;
+  padding: 2px;
+  background: white;
+  border-radius: 2px;
+  border: 1px solid rgba(103, 103, 103, 0.2);
+}
+.topbar form .search-view {
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+  color: #171c24;
+  font-size: 17px;
+  border: none;
+  font-weight: 500;
+  background: none;
+}
+.topbar form .search-view:focus ~ .search-view-autocomplete {
+  display: block;
+}
+.topbar form .search-view-autocomplete {
+  height: 400px;
+  display: none;
+  overflow-y: auto;
+  border-radius: 2px;
+}
+
+@media (max-width: 1245px) {
+  .topbar {
+    padding: 0 50px;
+  }
+}
+@media (max-width: 990px) {
+  .topbar {
+    padding: 0;
+    height: 140px;
+  }
+  .topbar .logo {
+    top: 1.1rem;
+    position: absolute;
+    left: 0.2rem;
+  }
+  .topbar .cart {
+    top: 1.8rem;
+    position: absolute;
+    right: 4.3rem;
+  }
+  .topbar .bars {
+    display: block;
+    top: 1.6rem;
+    position: absolute;
+    right: 1.7rem;
+  }
+  .topbar .nav-items {
+    position: absolute;
+    padding: 0;
+    top: 4rem;
+    left: 50%;
+    background: white;
+    right: 1rem;
+    border-radius: 2px;
+    transition: left 0.3s ease;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
+  }
+  .topbar .nav-items li {
+    margin: 5rem;
+    padding: 10px 22px;
+    line-height: 40px;
+  }
+  .topbar .nav-items li:hover {
+    background: #ffe0e0;
+  }
+  .topbar .nav-items li a {
+    position: relative;
+    color: red;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+  }
+  .topbar .nav-items.active {
+    left: 0;
+  }
+  .topbar form {
+    position: absolute !important;
+    top: 5rem;
+    right: 1.3rem;
+    left: 1.3rem;
+    transition: top 0.3s ease, opacity 0.1s ease;
+  }
+}
+
+/*# sourceMappingURL=topbar.css.map */
