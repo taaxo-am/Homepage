@@ -1,15 +1,14 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import './home.css'
 
-import bootstrap from 'bootstrap/dist/js/bootstrap.bundle.min'
 
 import data from './data'
 
 // Components
 import header from "../../img/header.png";
-import TopBar from "../../components/topbar/TopBar";
-import CategoriesBar from "../../components/categories/CategoriesBar";
 import Products from "../../components/Products";
+import Adeegyo from "./Adeegyo";
+import ScrollableProducts from "../../components/ScrollableProducts";
 
 // Images
 import img from '../../img/img.png'
@@ -19,9 +18,6 @@ import img4 from '../../img/img4.jpg'
 import imga from '../../img/a-img.png'
 import imga2 from '../../img/a-img2.png'
 import imga3 from '../../img/a-img3.png'
-import Adeegyo from "./Adeegyo";
-import Footer from "../../components/footer/Footer";
-import ScrollableProducts from "../../components/ScrollableProducts";
 
 const Home = () => {
 

@@ -37,7 +37,7 @@ const Login = () => {
                                 <input type="submit" value='SIGN IN' className='btn btn-danger w-50'/>
                             </Link>
                         </div>
-                        <a href='#' className="nav-link m-1">Forgot Password?</a>
+                        <Link to='/fg' className="nav-link m-1">Forgot Password?</Link>
 
                         <div className='d-flex align-items-center'>
                             <hr className='border flex-grow-1'/>

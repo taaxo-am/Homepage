@@ -41,7 +41,7 @@ const Signup = () => {
                                 <input type="submit" value='SIGN IN' className='btn btn-danger w-50'/>
                             </Link>
                         </div>
-                        <a href='#' className="nav-link m-1">Forgot Password?</a>
+                        <a href='https://www.google.com' className="nav-link m-1">Forgot Password?</a>
 
                         <div className='d-flex align-items-center'>
                             <hr className='border flex-grow-1'/>

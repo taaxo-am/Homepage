@@ -32,6 +32,7 @@ function App() {
 
                         <CategoriesBar/>
                         <Home/>
+                        <Footer/>
 
                     </Route>
 
@@ -40,6 +41,7 @@ function App() {
 
                         <CategoriesBar/>
                         <Detail/>
+                        <Footer/>
                     </Route>
 
                     <Route path='/cart'>
@@ -47,21 +49,22 @@ function App() {
 
                         <CategoriesBar/>
                         <Cart/>
+                        <Footer/>
                     </Route>
                     <Route path='/checkout'>
                         <TopBar/>
 
                         <CategoriesBar/>
                         <Checkout/>
+                        <Footer/>
                     </Route>
                     <Route path='/thanks'>
                         <TopBar/>
 
                         <CategoriesBar/>
                         <ThankU/>
+                        <Footer/>
                     </Route>
-
-                    <Footer/>
                 </Switch>
             </Switch>
         </Router>

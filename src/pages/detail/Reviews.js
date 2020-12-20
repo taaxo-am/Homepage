@@ -1,5 +1,4 @@
 import React from 'react';
-import iphone from "../../img/iphone.jpg";
 import Review from "./Review";
 import RatingProgressBar from "./RatingProgressBar";
 

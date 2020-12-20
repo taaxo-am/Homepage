@@ -1,5 +1,4 @@
 import React from 'react';
-import img1 from '../img/iphone.jpg'
 import ProductCard from "./ProductCard";
 import 'bootstrap/dist/js/bootstrap.bundle.min'
 
