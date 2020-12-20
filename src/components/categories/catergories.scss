@@ -1,4 +1,10 @@
 .cat-item {
+  cursor: pointer;
+
+  &:hover {
+    color: red;
+  }
+
   @media screen and (max-width: 576px) {
     font-size: 14px;
     font-weight: normal;

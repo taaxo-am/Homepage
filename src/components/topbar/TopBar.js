@@ -14,9 +14,11 @@ const TopBar = () => {
 
     return (
         <div className='topbar'>
-            <div className="logo">
-                <img src={logo} alt="" style={{width: '250px'}}/>
-            </div>
+            <Link to='/'>
+                <div className="logo">
+                    <img src={logo} alt="" style={{width: '250px'}}/>
+                </div>
+            </Link>
             <form action="#" className='position-relative'>
                 <input className="search-view" placeholder="Search..." required/>
 
@@ -39,8 +41,8 @@ const TopBar = () => {
             </form>
 
             <div className={`nav-items ${menuShown ? 'd-block' : 'd-none'} d-lg-flex flex-column flex-md-row`}>
-                <li><a href="#">Login</a></li>
-                <li><a href="#">Sign up</a></li>
+                <Link to='/login'><li><a href="#">Login</a></li></Link>
+                <Link to='/signup'><li><a href="#">Sign up</a></li></Link>
             </div>
 
             <div className='cart d-flex align-items-start'>
