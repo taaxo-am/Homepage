@@ -11,6 +11,7 @@ import Checkout from "./pages/Checkout";
 import ThankU from "./pages/ThankU";
 import Login from "./pages/login&singup/Login";
 import Signup from "./pages/login&singup/Signup";
+import Categories from "./pages/cat/Categories";
 
 function App() {
     return (
@@ -34,6 +35,14 @@ function App() {
                         <Home/>
                         <Footer/>
 
+                    </Route>
+
+                    <Route path='/categories'>
+                        <TopBar/>
+
+                        <CategoriesBar/>
+                        <Categories/>
+                        <Footer/>
                     </Route>
 
                     <Route path='/details'>

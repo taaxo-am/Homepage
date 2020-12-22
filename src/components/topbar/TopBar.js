@@ -41,13 +41,13 @@ const TopBar = () => {
             </form>
 
             <div className={`nav-items ${menuShown ? 'd-block' : 'd-none'} d-lg-flex flex-column flex-md-row`}>
-                <Link to='/login'><li><a href="#">Login</a></li></Link>
-                <Link to='/signup'><li><a href="#">Sign up</a></li></Link>
+                <Link style={{ textDecoration: 'none', color: 'black'}} to='/login'><li><a href="#">Login</a></li></Link>
+                <Link style={{ textDecoration: 'none', color: 'black'}} to='/signup'><li><a href="#">Sign up</a></li></Link>
             </div>
 
             <div className='cart d-flex align-items-start'>
                 <NavLink to='/cart'><i className='fa fa-shopping-cart'/></NavLink>
-                <span className="ms-1 badge rounded-pill bg-red-darken">8</span>
+                <span className="ms-1 badge rounded-pill bg-warning text-danger">8</span>
             </div>
 
             <div className='bars' onClick={updateMenuState}>

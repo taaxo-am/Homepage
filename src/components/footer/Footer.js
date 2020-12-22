@@ -6,7 +6,7 @@ import './footer.css'
 
 const Footer = () => {
     return (
-        <footer className='row'>
+        <footer className='row border-top border-secondary pt-3'>
             <h2 className='col-12 text-center text-dark mt-4 fw-bold'>NAGU SAABSAN</h2>
             <div className='col-12 d-flex justify-content-center mt-3 about'>
                 <small className='text-center'>Ganacsiga Online-ka ah ayaa isbeddel ku keenaya dhammaan sida looga adeegto

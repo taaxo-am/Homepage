@@ -9,7 +9,7 @@ const Signup = () => {
             <div className="row h-100 p-0">
                 <div className='col-lg-5 d-lg-block d-none h-100 left-panel m-0 p-0'>
                     <div className='d-flex fw-bolder flex-column mt-5 align-items-end m-0'>
-                        <Link className='p-3 w-25 text-white' to='/login'>
+                        <Link style={{ textDecoration: 'none'}} className='p-3 w-25 text-white' to='/login'>
                             <p>SIGN IN</p>
                         </Link>
                         <p className='bg-white p-3 rounded-start text-muted w-25'>SIGN UP</p>
@@ -30,15 +30,9 @@ const Signup = () => {
                         <div className="form-group mt-2">
                             <input type="password" placeholder='Confirm Password' className='form-control'/>
                         </div>
-                        <div className="form-check mt-2">
-                            <input className="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-                            <label className="form-check-label" htmlFor="defaultCheck1">
-                                Remember me?
-                            </label>
-                        </div>
                         <div className="form-group mt-4">
                             <Link to='/'>
-                                <input type="submit" value='SIGN IN' className='btn btn-danger w-50'/>
+                                <input type="submit" value='SIGN IN' className='btn btn-danger w-auto px-5'/>
                             </Link>
                         </div>
                         <a href='https://www.google.com' className="nav-link m-1">Forgot Password?</a>
@@ -49,10 +43,10 @@ const Signup = () => {
                             <hr className='border flex-grow-1'/>
                         </div>
 
-                        <button className='btn btn-danger btn-sm w-25'><i
+                        <button className='btn btn-danger btn-sm w-auto px-3'><i
                             className='fab fa-google-plus'/>&nbsp;&nbsp;&nbsp;SIGN UP WITH GOOGLE
                         </button>
-                        <button className='btn btn-primary btn-sm mt-4 w-25'><i
+                        <button className='btn btn-primary btn-sm mt-4 w-auto px-3'><i
                             className='fab fa-facebook'/>&nbsp;&nbsp;&nbsp;SIGN UP WITH FACEBOOK
                         </button>
                     </form>

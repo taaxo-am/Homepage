@@ -26,7 +26,7 @@ const Cart = () => {
             {
                 items.length > 0 ? (
                     <div className='row m-0'>
-                        <div className='col-12 col-md-8 p-4'>
+                        <div className='col-12 col-md-8 p-3'>
                             {
                                 items.map(item => {
                                     return (
@@ -38,12 +38,12 @@ const Cart = () => {
                             }
                         </div>
 
-                        <div className='col-12 col-md-4 p-4'>
+                        <div className='col-12 col-md-4 p-3'>
                             <OrderSummary />
                         </div>
                     </div>
                 ) : (
-                    <div className='container mx-auto p-5'>
+                    <div className='container mx-auto p-4'>
                         <EmptyView />
                     </div>
                 )
@@ -73,9 +73,9 @@ const EmptyView = () => {
     return (
         <div className='card py-3'>
             <div className='card-body d-flex flex-column align-items-center'>
-                <img className='w-25 mx-auto card-img-top' src={empty}/>
+                <img className='w-50 mx-auto card-img-top' src={empty}/>
                 <h3 className='fw-bold text-center m-4'>Your cart is empty</h3>
-                <Link to='/'><button className='text-white btn btn-lg btn-danger text-center mx-auto'>Shop now</button></Link>
+                <Link to='/'><button className='text-white btn btn-danger text-center mx-auto'>Shop now</button></Link>
             </div>
         </div>
     )

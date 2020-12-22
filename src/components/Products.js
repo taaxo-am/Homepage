@@ -5,7 +5,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min'
 
 const Products = ({img, title, subtitle, data}) => {
     return (
-        <div className='row p-1 my-3 mx-2'>
+        <div className='row p-md-1 my-3 mx-md-2'>
             {
                 img && (
                     <div className={`col-2 d-none d-lg-block p-0 ${img.right ? 'order-3': 'order-0'}`}>

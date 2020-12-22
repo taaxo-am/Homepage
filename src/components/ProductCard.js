@@ -4,7 +4,7 @@ import {NavLink} from "react-router-dom";
 const ProductCard = ({img, name, price}) => {
 
     return (
-        <NavLink to='/details' style={{textDecoration: 'none'}}>
+        <NavLink to='/details' style={{ textDecoration: 'none', color: 'black'}}>
             <div className="card hoverable-card">
                 <div5 className='d-flex justify-content-center'>
                     <img src={img} className="img-fluid w-75 p-1" alt=""/>

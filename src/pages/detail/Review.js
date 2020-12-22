@@ -5,17 +5,17 @@ const Review = () => {
     return (
         <div className='d-flex align-items-start mt-5'>
             <img src={avatar} alt=""/>
-            <div className="d-flex flex-column ms-5">
-                <p>Yasir Carafaad</p>
+            <div className="d-flex flex-column ms-4 ms-md-4">
+                <h5 className='fw-bold'>Yasir Carafaad</h5>
                 <div className="d-flex flex-column flex-xl-row">
-                    <small className='mt-2 mt-xl-0'>Reviewed in Hargeisa on Dec 2020</small>
+                    <small className='text-black-50 mt-1 mt-xl-0'>September 02 2020</small>
                 </div>
-                <p className='mt-3'>There isn't much to dislike about Canon's SL3 SLR camera. I buy camera bodies often, keep them a year and
+                <small className='mt-3'>There isn't much to dislike about Canon's SL3 SLR camera. I buy camera bodies often, keep them a year and
                     then often upgrade (I travel for a living).
 
                     I have yet to find a really good POINT & SHOOT camera to carry for my travels. They always let me down
                     (Canon included) in performance.
-                </p>
+                </small>
             </div>
         </div>
     );
