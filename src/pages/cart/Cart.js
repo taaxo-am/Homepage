@@ -2,11 +2,11 @@ import React, {useState} from 'react';
 import ScrollableProducts from "../../components/ScrollableProducts";
 
 import data from './../home/data'
-import img from "../../img/img.png";
+import img from "../../assets/img/img.png";
 import empty from "./empty.png";
-import imga from "../../img/a-img.png";
-import imga2 from "../../img/a-img2.png";
-import imga3 from "../../img/a-img3.png";
+import imga from "../../assets/img/a-img.png";
+import imga2 from "../../assets/img/a-img2.png";
+import imga3 from "../../assets/img/a-img3.png";
 
 import './cart.css'
 import CartItem from "./CartItem";

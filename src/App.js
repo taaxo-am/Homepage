@@ -11,7 +11,7 @@ import Checkout from "./pages/Checkout";
 import ThankU from "./pages/ThankU";
 import Login from "./pages/login&singup/Login";
 import Signup from "./pages/login&singup/Signup";
-import Categories from "./pages/cat/Categories";
+import Filter from "./pages/filter/Filter";
 
 function App() {
     return (
@@ -41,7 +41,7 @@ function App() {
                         <TopBar/>
 
                         <CategoriesBar/>
-                        <Categories/>
+                        <Filter/>
                         <Footer/>
                     </Route>
 

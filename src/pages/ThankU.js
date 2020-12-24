@@ -1,5 +1,5 @@
 import React from 'react';
-import img from './../img/thanx.png'
+import img from '../assets/img/thanx.png'
 
 const ThankU = () => {
     return (

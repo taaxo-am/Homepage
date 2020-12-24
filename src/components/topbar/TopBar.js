@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import data from "../../pages/home/data";
-import logo from "../../img/logo.png";
+import logo from "../../assets/img/logo.png";
 import './topbar.css'
 import {Link, NavLink} from "react-router-dom";
 

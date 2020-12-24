@@ -1,4 +1,4 @@
-import img1 from "../../img/iphone.jpg";
+import img1 from "../../assets/img/iphone.jpg";
 
 export default [
     {

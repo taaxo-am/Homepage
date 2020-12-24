@@ -1,6 +1,6 @@
 import React from 'react';
-import img from "../../img/img.png";
-import iphone from "../../img/iphone.jpg";
+import img from "../../assets/img/img.png";
+import iphone from "../../assets/img/iphone.jpg";
 
 const CartItem = ({removeItem}) => {
     return (

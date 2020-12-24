@@ -1,5 +1,5 @@
 import React from 'react';
-import iphone from '../../img/iphone.jpg'
+import iphone from '../../assets/img/iphone.jpg'
 import ProductInfo from "./ProductInfo";
 import Reviews from "./Reviews";
 import {Link, NavLink} from "react-router-dom";

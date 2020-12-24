@@ -2,9 +2,9 @@ import React from 'react';
 import OrderSummary from "./cart/OrderSummary";
 import CartItem from "./cart/CartItem";
 
-import zaad from "./../img/Zaad.png";
-import eDahab from "./../img/e-dahab.png";
-import shilling from "./../img/shilling.png";
+import zaad from "../assets/img/Zaad.png";
+import eDahab from "../assets/img/e-dahab.png";
+import shilling from "../assets/img/shilling.png";
 
 const Checkout = () => {
     return (
